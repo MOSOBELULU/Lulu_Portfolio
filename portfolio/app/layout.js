@@ -1,6 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TopNav from "./components/TopNav";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 
 
 const geistSans = Geist({
@@ -26,6 +30,7 @@ export default function RootLayout({ children }) {
       >
         <TopNav/>
         {children}
+       
       </body>
     </html>
   );

@@ -2,8 +2,8 @@ import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon } from "@heroicons/re
 
 export default function TopNav() {
   return (
-    <header className="fixed top-0 w-full bg-gray-900 text-white shadow-md z-50">
-      <nav className="max-w-7xl mx-auto flex justify-center space-x-8 py-4">
+    <header className="fixed top-0 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white shadow-md z-50 w-[80%] max-w-3xl rounded-lg mt-4">
+      <nav className="flex justify-center space-x-6 py-3">
         <a href="#home" className="flex items-center space-x-2 hover:text-gray-400">
           <HomeIcon className="w-5 h-5" />
           <span>Home</span>
