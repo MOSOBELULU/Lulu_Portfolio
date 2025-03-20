@@ -45,7 +45,8 @@ export default function Home() {
           <Image src='/images/myPhoto.jpg'
           width={256}
           height={256}
-          className="h-64 w-64 object-cover rounded-tl-[50%] rounded-br-[50%] mb-4"
+          className="h-64 w-64 object-cover rounded-tl-[10px] rounded-tr-[10px] rounded-bl-[50%] rounded-br-[50%] mb-4"
+
             alt="ProfilePic"/>
           <div className="flex justify-center gap-4 bg-[#1c1b5f]">
             <a
