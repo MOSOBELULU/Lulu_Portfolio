@@ -40,8 +40,7 @@ export const educationData = [
      ],
     'Tools and Platforms': [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAjVBO_CGwK4zzuOSXrWoF-DX-jjDosxsOCw&s",
-       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5uchR8ys7SD1OFfIPTGi6BKuzF8xFsPXRA&s",
-        "Ghttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHS0NsIsQEtnAr-rMpp01nrHUwjywu_9b3qA&s", 
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5uchR8ys7SD1OFfIPTGi6BKuzF8xFsPXRA&s", 
         "https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png"],
   };
   export const projectList = [
