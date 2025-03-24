@@ -1,5 +1,5 @@
 'use client'
-import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon } from "@heroicons/react/24/solid";
+import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon, SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { useTheme } from "../Context/ThemeContext";
 
@@ -37,8 +37,13 @@ export default function TopNav() {
             <span>Contact</span>
           </a>
         </div>
+        {/* Theme*/}
         <button onClick={toggleTheme} className="p-2">
-          {theme === 'light' ? '🌙' : '☀️'}
+          {theme === 'light' ? (
+            <SunIcon className="w-6 h-6 text-yellow-500" />
+          ) : (
+            <MoonIcon className="w-6 h-6 text-gray-300" />
+          )}
         </button>
 
         {/* Hamburger icon for mobile view */}
