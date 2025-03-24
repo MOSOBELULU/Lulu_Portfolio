@@ -62,8 +62,8 @@ export default function About() {
                       <Image
                         src={image}
                         alt={`${category} logo`}
-                        width={112} // lg:w-28
-                        height={112} // lg:h-28
+                        width={112}
+                        height={112} 
                         className="rounded-lg"
                       />
                     </div>
