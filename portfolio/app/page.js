@@ -1,5 +1,7 @@
 "Use client"
-import { GitHubIcon, LinkedInIcon } from "@heroicons/react/24/solid";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Image from "next/image";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -24,6 +26,7 @@ export default function Home() {
           <div className="font-semibold text-lg">
             <h1 className="text-black text-4xl mb-2">Lulu Mosobe</h1>
             <h2 className="text-[#080808] text-2xl mb-4">Software Developer</h2>
+            
             <p className="text-[#1c1b5f] text-xl leading-relaxed mb-8">
               As a highly motivated and quick learner, I am enthusiastic about advancing my skills and contributing to dynamic software development teams.
               With a strong commitment to staying up-to-date with the latest technologies and best practices, I am dedicated to crafting efficient and high-quality software solutions.
@@ -52,7 +55,10 @@ export default function Home() {
             <a
               className="filter invert"
               href="https://github.com/MOSOBELULU"
-            >
+              > 
+            <GitHubIcon/>
+            <LinkedInIcon/>
+            <WhatsAppIcon/>
               <div className="relative bg-[#b8b1ae]">
           </div>
         

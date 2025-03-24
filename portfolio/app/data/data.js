@@ -24,25 +24,25 @@ export const educationData = [
   // Dummy skills and abilities data
   export const skillsData = {
     'Web Development': [
-      "HTML",
-      "CSS",
-      "TailwindCss",
-      "Scratch Programming",
-      "JavaScript",
-      "ReactJs",
-      "NextJs"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYHczFbQGuy56KJ34R4K6wfCDtsJseFWb8Q&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhWXknNoBhF6fMQnZTRZduqsi_Mg_Ujj4Ow&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28tj7Dipgkq9h5msRMqazPtviHj7tpx3CLA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYlgTIUS962VJ8XRUSu9EunnFKe2Eu-bAlDA&s",
+      "https://logospng.org/download/javascript/logo-javascript-icon-256.png",
+      "https://cdn.worldvectorlogo.com/logos/react-native-1.svg",
+      "https://vite.dev/logo.svg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LqZErRKjR9tEaMugRHc4nxzO1PoV6LrMn1EjnZq3apjeyHVLFvLbWQooR4TyE0pbV6w&usqp=CAU"
 ],
-    'Backend Development': [ "Node.js",
-      "MongoDB",
-      "Firebase"
+    'Backend Development': [ 
+      "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg",
+      "https://img.icons8.com/color/512/mongodb.png",
+      "https://pngate.com/wp-content/uploads/2025/03/google-firebase-logo-app-icon-rounded-1.png"
      ],
-    'Tools and Platforms': ["Microsoft 365", "Visual Studio", "Git and Github"],
-    Other: [
-      'Object Orientated Programming',
-      'Agile Software Development',
-      'SEO Implementation',
-      'API'
-    ],
+    'Tools and Platforms': [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAjVBO_CGwK4zzuOSXrWoF-DX-jjDosxsOCw&s",
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5uchR8ys7SD1OFfIPTGi6BKuzF8xFsPXRA&s",
+        "Ghttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHS0NsIsQEtnAr-rMpp01nrHUwjywu_9b3qA&s", 
+        "https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png"],
   };
   export const projectList = [
     {

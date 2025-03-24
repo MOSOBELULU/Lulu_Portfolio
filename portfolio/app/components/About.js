@@ -1,4 +1,4 @@
-// components/About.js
+import Image from 'next/image';
 import { educationData, skillsData } from '../data/data';
 
 export default function About() {
@@ -25,11 +25,20 @@ export default function About() {
           {Object.entries(skillsData).map(([category, skills], index) => (
             <div key={index}>
               <h3 className="text-xl font-semibold">{category}</h3>
-              <ul className="list-disc pl-6 space-y-2">
+              <div className="flex flex-wrap gap-4">
                 {skills.map((skill, idx) => (
-                  <li key={idx} className="text-gray-600">{skill}</li>
+                  <div key={idx} className="relative w-16 h-16">
+                    <Image 
+                      src={skill} 
+                      alt={`${category} skill`} 
+                      width={64}  
+                      height={64}
+                      objectFit="contain" 
+                      className="rounded-lg shadow-md" 
+                    />
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
