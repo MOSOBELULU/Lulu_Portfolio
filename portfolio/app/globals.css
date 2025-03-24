@@ -1,4 +1,28 @@
 @import "tailwindcss";
 
-
+/* Light Theme */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* You can also customize specific components for dark/light mode */
+  body.dark .bg-gray-900 {
+    background-color: #333;
+  }
+  
+  body.dark .text-gray-400 {
+    color: #aaa;
+  }
+  
+  body.dark .hover\:text-gray-400:hover {
+    color: #bbb;
+  }
+  
 

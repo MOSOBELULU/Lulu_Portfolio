@@ -1,9 +1,11 @@
 'use client'
 import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import { useState } from "react";
+import { useTheme } from "../Context/ThemeContext";
 
 export default function TopNav() {
   const [isOpen, setIsOpen] = useState(false);
+  const {theme, toggleTheme} = useTheme();
 
   // Toggle menu visibility
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -35,6 +37,9 @@ export default function TopNav() {
             <span>Contact</span>
           </a>
         </div>
+        <button onClick={toggleTheme} className="p-2">
+          {theme === 'light' ? '🌙' : '☀️'}
+        </button>
 
         {/* Hamburger icon for mobile view */}
         <div className="md:hidden flex items-center">
