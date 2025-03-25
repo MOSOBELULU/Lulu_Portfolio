@@ -1,12 +1,13 @@
+'use client'
 export default function About() {
-  // const handleDownload = () => {
-  //   const link = document.createElement("a");
-  //   link.href = "./pdf/Luluresume.pdf"; // Fixed the incorrect href
-  //   link.download = "Mosobe_Lulu_Resume.pdf";
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "./pdf/Luluresume.pdf"; // Fixed the incorrect href
+    link.download = "Mosobe_Lulu_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section className=" w-full mx-auto px-8 py-16 rounded-lg" id="about">
@@ -35,7 +36,7 @@ export default function About() {
       </p>
       <div className="flex justify-center mt-8">
         <button
-          // onClick={handleDownload}
+          onClick={handleDownload}
           className="bg-[#27415e] text-white px-8 py-3 text-lg font-medium rounded-md shadow-md transition-transform transform hover:scale-105 hover:bg-[#1e334d]"
         >
           Download My Resume
