@@ -9,17 +9,23 @@ import 'swiper/css/effect-coverflow';
 export default function About() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12" id="about">
-      <h1 className="text-3xl font-semibold text-center mb-6">About Me</h1>
+      <h1 className="text-3xl font-semibold text-center mb-6 text-black">
+        About Me
+      </h1>
 
       {/* Education Section */}
       <section>
-        <h2 className="text-2xl font-semibold">Education</h2>
+        <h2 className="text-2xl font-semibold text-black">
+          Education
+        </h2>
         <ul className="space-y-4">
           {educationData.map((item, index) => (
             <li key={index} className="border-b py-4">
-              <h3 className="text-xl font-semibold">{item.Qualification}</h3>
-              <p className="text-gray-600">{item.Institution}</p>
-              <p className="text-gray-500">{item.Duration}</p>
+              <h3 className="text-xl font-semibold text-black">
+                {item.Qualification}
+              </h3>
+              <p className="text-black">{item.Institution}</p>
+              <p className="text-black">{item.Duration}</p>
             </li>
           ))}
         </ul>
@@ -27,16 +33,20 @@ export default function About() {
 
       {/* Skills Section with Animated Carousel */}
       <section className="mt-8">
-        <h2 className="text-2xl font-semibold">Skills</h2>
+        <h2 className="text-2xl font-semibold text-black">
+          Skills
+        </h2>
         {Object.entries(skillsData).map(([category, skills], index) => (
           <div key={index} className="mt-6">
-            <h3 className="text-xl font-semibold text-center mb-4">{category}</h3>
+            <h3 className="text-xl font-semibold text-center mb-4 text-black">
+              {category}
+            </h3>
             <Swiper
               spaceBetween={10}
-              slidesPerView={1} 
+              slidesPerView={1}
               breakpoints={{
-                640: { slidesPerView: 2 }, 
-                1024: { slidesPerView: 3 }, 
+                640: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
               }}
               loop={true}
               autoplay={{ delay: 2000 }}
@@ -56,14 +66,14 @@ export default function About() {
               {skills.map((image, idx) => (
                 <SwiperSlide key={idx}>
                   <div className="flex justify-center">
-                    <div className="relative w-16 h-16 md:w-24 md:h-24 lg:w-28 lg:h-28 
-                      transition-transform transform hover:scale-110 
+                    <div className="relative w-16 h-16 md:w-24 md:h-24 lg:w-28 lg:h-28
+                      transition-transform transform hover:scale-110
                       animate-pulse hover:animate-none shadow-lg hover:shadow-red-400/50">
                       <Image
                         src={image}
                         alt={`${category} logo`}
                         width={112}
-                        height={112} 
+                        height={112}
                         className="rounded-lg"
                       />
                     </div>

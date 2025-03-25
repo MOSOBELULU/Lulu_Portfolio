@@ -1,11 +1,11 @@
 'use client'
-import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon, SunIcon, MoonIcon } from "@heroicons/react/24/solid";
+import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import { useState } from "react";
-import { useTheme } from "../Context/ThemeContext";
+
 
 export default function TopNav() {
   const [isOpen, setIsOpen] = useState(false);
-  const {theme, toggleTheme} = useTheme();
+  
 
   // Toggle menu visibility
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -13,12 +13,12 @@ export default function TopNav() {
   return (
     <header className="fixed top-0 left-0 right-0 bg-gray-900 text-white shadow-md z-50 w-full">
       <nav className="flex items-center justify-between w-full px-6 py-3">
-        {/* "My Portfolio" on the left */}
+        
         <div className="flex items-center">
-          <div className="text-xl font-bold">My Portfolio</div>
+          <div className="text-xl font-bold">Lulu Mosobe</div>
         </div>
 
-        {/* Navigation items in the center (for larger screens) */}
+       
         <div className="hidden md:flex space-x-6 justify-center flex-1">
           <a href="#home" className="flex items-center space-x-2 hover:text-gray-400">
             <HomeIcon className="w-5 h-5" />
@@ -37,14 +37,7 @@ export default function TopNav() {
             <span>Contact</span>
           </a>
         </div>
-        {/* Theme*/}
-        <button onClick={toggleTheme} className="p-2">
-          {theme === 'light' ? (
-            <SunIcon className="w-6 h-6 text-yellow-500" />
-          ) : (
-            <MoonIcon className="w-6 h-6 text-gray-300" />
-          )}
-        </button>
+        
 
         {/* Hamburger icon for mobile view */}
         <div className="md:hidden flex items-center">

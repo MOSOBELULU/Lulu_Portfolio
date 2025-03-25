@@ -24,10 +24,10 @@ export default function Home() {
         {/* Text Content */}
         <div className="max-w-[50%]">
           <div className="font-semibold text-lg">
-            <h1 className="text-black text-4xl mb-2">Lulu Mosobe</h1>
-            <h2 className="text-[#080808] text-2xl mb-4">Software Developer</h2>
+    
+          <h2 className="text-2xl mb-4 text-black ">Software Developer</h2>
             
-            <p className="text-[#1c1b5f] text-xl leading-relaxed mb-8">
+            <p className="text-xl leading-relaxed mb-8 text-black ">
               As a highly motivated and quick learner, I am enthusiastic about advancing my skills and contributing to dynamic software development teams.
               With a strong commitment to staying up-to-date with the latest technologies and best practices, I am dedicated to crafting efficient and high-quality software solutions.
               My passion for problem-solving and my experience in Html, Css, Javascript, ReactJs, and NextJs make me a valuable asset to any software development project.
