@@ -17,7 +17,7 @@ const poppins = Poppins({
 export default function Home() {
   return (
     <>
-      <section id="home" className="bg-gray-100">
+      <section id="home" >
         <div className="relative">
           <div className="flex flex-col md:flex-row items-center justify-evenly min-h-screen p-8 space-y-8 md:space-y-0">
             <div className="text-center md:text-left flex flex-col items-center md:items-start">

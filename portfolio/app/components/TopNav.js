@@ -1,5 +1,5 @@
 'use client'
-import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon, AcademicCapIcon, DevicePhoneMobileIcon } from "@heroicons/react/24/solid";
+import { HomeIcon, UserIcon, CodeBracketIcon, EnvelopeIcon, Bars3Icon, AcademicCapIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 
 
@@ -32,7 +32,7 @@ export default function TopNav() {
             <span>Education</span>
           </a>
           <a href="#stack" className="flex items-center space-x-2 hover:text-gray-400">
-            <DevicePhoneMobileIcon className="w-5 h-5" />
+            <CpuChipIcon className="w-5 h-5" />
             <span>Stack</span>
           </a>
           <a href="#projects" className="flex items-center space-x-2 hover:text-gray-400">
