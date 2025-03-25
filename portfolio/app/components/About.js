@@ -9,7 +9,7 @@ export default function About() {
   // };
 
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16 bg-gray-100 rounded-lg shadow-lg" id="about">
+    <section className=" w-full mx-auto px-8 py-16 rounded-lg" id="about">
       <h1 className="text-4xl font-bold text-center mb-6 text-[#27415e]">
         About Me
       </h1>

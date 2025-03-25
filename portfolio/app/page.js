@@ -26,7 +26,7 @@ export default function Home() {
               >
                 Software Developer
               </h2>
-              <div className="flex justify-center md:justify-start gap-6 p-2 rounded-full mt-6">
+              <div className="flex justify-center md:justify-center gap-6 p-2 rounded-full mt-6">
   <a
     className="filter invert transition-colors duration-300 hover:text-gray-300"
     href="https://github.com/MOSOBELULU"

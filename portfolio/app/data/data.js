@@ -11,7 +11,13 @@ export const educationData = [
     {
       Institution: "University of South Africa",
       Qualification: "Bachelor of Accounting Sciences in Financial Accounting",
-      Duration: "2020 till date",
+      Duration: "January 2022 (incomplete 2nd Level)",
+     
+    },
+    {
+      Institution: "University of South Africa",
+      Qualification: "Higher Certificate in Accounting Science",
+      Duration: "January 2020 to July 2021",
      
     },
     {
