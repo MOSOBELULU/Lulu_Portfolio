@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Projects() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12" id="projects">
-      <h1 className="text-8xl font-semibold text-black text-center">My Projects</h1>
+      <h1 className="text-4xl font-semibold text-black text-center">My Projects</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectList.map((project, index) => (
