@@ -74,9 +74,9 @@ export const educationData = [
         },
     {
       title: "Authentication",
-      imageUrl: "/images/recipe app.png",
-      link: "nextecomm-zeta.vercel.appcooking-devs.vercel.app/",
-      description: "Next authentication",
+      imageUrl: "/images/authentication.png",
+      link: "nextecomm-zeta.vercel.app/",
+      description: "A simple Next.js and Bootstrap authentication app with MongoDB integration. It features user authentication, protected routes, a dynamic navbar, a user dashboard, loading states, and toaster notifications. ",
       code: "https://github.com/MOSOBELULU/nextecomm.git"
         }
   ];
