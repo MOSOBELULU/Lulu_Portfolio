@@ -84,5 +84,12 @@ export const educationData = [
       link: "nextecomm-zeta.vercel.app/",
       description: "A simple Next.js and Bootstrap authentication app with MongoDB integration. It features user authentication, protected routes, a dynamic navbar, a user dashboard, loading states, and toaster notifications. ",
       code: "https://github.com/MOSOBELULU/nextecomm.git"
+        },
+    {
+      title: "ToDo App",
+      imageUrl: "/images/todo.png",
+      link: "https://todo-app-three-topaz-49.vercel.app/",
+      description: "A simple and efficient To-Do List app that lets you create, edit, and delete tasks while categorizing them as Work or Personal. Stay organized and manage your tasks with ease! ",
+      code: "https://github.com/MOSOBELULU/TODO_APP.git"
         }
   ];
