@@ -48,24 +48,35 @@ export const educationData = [
       title: "Budget Pal",
       imageUrl: "/images/budget-logo.png",
       link: "https://ur-budget-pal.vercel.app/",
-      description: ' This is a Budget app that allows users to create their monthly budget by calculating their total income and expenses and determining the balance for the month. '
+      description: ' This is a Budget app that allows users to create their monthly budget by calculating their total income and expenses and determining the balance for the month. ',
+      code: "https://github.com/MOSOBELULU/UR-Budget-Pal.git"
     },
     {
       title: "Next.js Blog",
       imageUrl: "/images/blog.png",
       link: "https://blog-nextjs-project-csnb.vercel.app/",
-      description: "This project is a dynamic, modern blog application built using Next.js. It leverages server-side rendering and static site generation for optimized performance and SEO. The blog features a responsive design ensuring accessibility across various devices."
+      description: "This project is a dynamic, modern blog application built using Next.js. It leverages server-side rendering and static site generation for optimized performance and SEO. The blog features a responsive design ensuring accessibility across various devices.",
+      code: "https://github.com/MOSOBELULU/BLOG-NEXTJS-PROJECT.git"
     },
     {
       title: "Podcast App",
       imageUrl: "/images/podcastapp.png",
       link: "https://github.com/MOSOBELULU/PodcastApp.git",
-      description: "This platform is designed to revolutionize your podcast experience. Browse shows, enjoy episodes, and curate your favorites effortlessly!"
+      description: "This platform is designed to revolutionize your podcast experience. Browse shows, enjoy episodes, and curate your favorites effortlessly!",
+      code: "https://github.com/MOSOBELULU/PodcastApp.git"
     },
     {
       title: "Recipe App",
       imageUrl: "/images/recipe app.png",
       link: "cooking-devs.vercel.app/",
-      description: "Recipe App offers a seamless culinary experience, boasting features like recipe card display, filtering options, search functionality, favourites management, editing capabilities, theme toggling, pagination, and detailed recipe previews."
+      description: "Recipe App offers a seamless culinary experience, boasting features like recipe card display, filtering options, search functionality, favourites management, editing capabilities, theme toggling, pagination, and detailed recipe previews.",
+      code: "https://github.com/CodeSpace-Academy/ASE_2023_GROUP_A.git"
+        },
+    {
+      title: "Authentication",
+      imageUrl: "/images/recipe app.png",
+      link: "nextecomm-zeta.vercel.appcooking-devs.vercel.app/",
+      description: "Next authentication",
+      code: "https://github.com/MOSOBELULU/nextecomm.git"
         }
   ];
