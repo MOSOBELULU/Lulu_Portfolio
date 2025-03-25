@@ -1,5 +1,4 @@
 'use client'
-
 import { createContext, useState, useContext, useEffect } from 'react';
 
 // Create a context for theme
@@ -14,10 +13,9 @@ export function ThemeProvider({ children }) {
 
   // Set the theme based on localStorage or default to light
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setTheme(savedTheme);
-    }
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme);
+    document.documentElement.className = savedTheme; // Apply theme to <html>
   }, []);
 
   // Toggle between light and dark theme
@@ -25,15 +23,14 @@ export function ThemeProvider({ children }) {
     setTheme((prevTheme) => {
       const newTheme = prevTheme === 'light' ? 'dark' : 'light';
       localStorage.setItem('theme', newTheme); // Save to localStorage
+      document.documentElement.className = newTheme; // Apply theme to <html>
       return newTheme;
     });
   };
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className={theme}>
-        {children}
-      </div>
+      {children}
     </ThemeContext.Provider>
   );
 }
