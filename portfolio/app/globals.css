@@ -1,2 +1,97 @@
 @import "tailwindcss";
 
+
+/* globals.css */
+
+/* Dramatic fade-in */
+@keyframes dramaticFadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8); /* Start smaller */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1); /* End at normal size */
+    }
+  }
+  
+  /* Hover effect */
+  @keyframes hoverEffect {
+    0% {
+      transform: scale(1);
+      text-shadow: 0px 0px 10px rgba(0, 255, 255, 0), 0px 0px 20px rgba(0, 255, 255, 0);
+      color: #333;
+    }
+    100% {
+      transform: scale(1.1); /* Scale up */
+      text-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7), 0px 0px 30px rgba(0, 255, 255, 0.7);
+      color: #00bcd4; /* Cyan color */
+    }
+  }
+  
+  /* Apply the animations */
+  .animate-dramaticFadeIn {
+    animation: dramaticFadeIn 1.5s ease-out;
+  }
+  
+  .hover\:animate-hoverEffect:hover {
+    animation: hoverEffect 0.5s ease-out forwards;
+  }
+
+ /* Updated Hover and Icon Effects */
+@keyframes hoverEffect {
+    0% {
+      transform: scale(1);
+      text-shadow: 0px 0px 10px rgba(0, 255, 255, 0), 0px 0px 20px rgba(0, 255, 255, 0);
+      color: #333;
+    }
+    100% {
+      transform: scale(1.2); /* Slightly larger scale */
+      text-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7), 0px 0px 30px rgba(0, 255, 255, 0.7);
+      color: #00bcd4; /* Cyan color */
+    }
+  }
+  
+  /* Updated Hover and Icon Effects */
+@keyframes hoverEffect {
+    0% {
+      transform: scale(1);
+      text-shadow: 0px 0px 10px rgba(0, 255, 255, 0), 0px 0px 20px rgba(0, 255, 255, 0);
+      color: #333;
+    }
+    100% {
+      transform: scale(1.2); /* Slightly larger scale */
+      text-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7), 0px 0px 30px rgba(0, 255, 255, 0.7);
+      color: #00bcd4; /* Cyan color */
+    }
+  }
+  
+  /* Icon Hover Animation */
+  @keyframes iconHover {
+    0% {
+      transform: scale(1) rotate(0deg);
+      text-shadow: 0px 0px 10px rgba(0, 255, 255, 0);
+      color: white;
+    }
+    100% {
+      transform: scale(1.5) rotate(15deg); /* Larger scale and rotation */
+      text-shadow: 0px 0px 20px rgba(0, 255, 255, 1); /* Glowing effect */
+      color: #00bcd4;
+    }
+  }
+  
+  /* Apply the icon hover animation */
+  .icon-hover:hover {
+    animation: iconHover 0.5s ease-out forwards;
+  }
+  
+  /* Increase Icon Size for Larger Effect */
+  .w-16, .h-16 {
+    width: 6rem; /* 64px */
+    height: 6rem; /* 64px */
+  }
+  
+  .filter:hover {
+    animation: iconHover 0.5s ease-out forwards;
+  }
+  

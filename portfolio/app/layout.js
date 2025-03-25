@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import TopNav from "./components/TopNav";
 
@@ -12,6 +13,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+<Head>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+  rel="stylesheet"
+/>
+</Head>
 
 export const metadata = {
   title: "Lulu Portfolio",
