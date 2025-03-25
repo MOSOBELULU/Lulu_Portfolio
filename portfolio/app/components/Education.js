@@ -7,7 +7,7 @@ export default function Education() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Education Content */}
         <div>
-          <h2 className="text-5xl font-bold text-gray-800 mb-8 text-center">Education</h2>
+          <h2 className="text-5xl font-semibold text-black text-center">Education</h2>
           <ul className="space-y-6">
             {educationData.map((item, index) => (
               <li
