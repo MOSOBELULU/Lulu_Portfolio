@@ -5,9 +5,10 @@ export default function Education() {
   return (
     <section id="education" className="py-12">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* Education Content */}
         <div>
-          <h2 className="text-5xl font-semibold text-black text-center">Education</h2>
+          <h2 className="text-5xl font-semibold text-black text-center">
+            Education
+          </h2>
           <ul className="space-y-6">
             {educationData.map((item, index) => (
               <li
@@ -25,13 +26,13 @@ export default function Education() {
             ))}
           </ul>
         </div>
-      
+
         <div className="flex justify-center">
-          <Image 
-            src="/images/education.png" 
-            alt="Education Illustration" 
-            width={600} 
-            height={600} 
+          <Image
+            src="/images/education.png"
+            alt="Education Illustration"
+            width={600}
+            height={600}
           />
         </div>
       </div>

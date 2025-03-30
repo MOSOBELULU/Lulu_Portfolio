@@ -3,7 +3,6 @@ import Head from "next/head";
 import "./globals.css";
 import TopNav from "./components/TopNav";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 <Head>
-<link
-  href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-  rel="stylesheet"
-/>
-</Head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    rel="stylesheet"
+  />
+</Head>;
 
 export const metadata = {
   title: "Lulu Portfolio",
@@ -29,14 +28,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          <TopNav />
-          {children}
-        </body>
-    
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <TopNav />
+        {children}
+      </body>
     </html>
   );
 }

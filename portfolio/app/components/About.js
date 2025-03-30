@@ -2,7 +2,7 @@
 export default function About() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "./pdf/Luluresume.pdf"; // Fixed the incorrect href
+    link.href = "./pdf/Luluresume.pdf"; 
     link.download = "Mosobe_Lulu_Resume.pdf";
     document.body.appendChild(link);
     link.click();
